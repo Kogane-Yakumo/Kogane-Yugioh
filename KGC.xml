@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="4">
+  <sets>
+    <set>
+      <name>KGC</name>
+      <longname>Kogane Curated</longname>
+      <settype>Custom</settype>
+    </set>
+  </sets>
+  <cards>
+
+    <card>
+      <name>Hop Ear Squadron</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>2</cmc>
+        <colors>wind</colors>
+        <maintype>Monster</maintype>
+        <pt>30/60</pt>
+        <race>Beast</race>
+        <type>effect monster</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>(Quick Effect) During your opponent&apos;s Main Phase [Target 1 face-up monster you control]: Summon this card from your hand, if you do, immediately after this effect resolves, Synchro Summon 1 Monster using only this card you control and that target.
+</text>
+    </card>
+    <card>
+      <name>Black Rose Dragon</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>7</cmc>
+        <colors>fire</colors>
+        <maintype>Monster</maintype>
+        <pt>240/180</pt>
+        <race>Dragon</race>
+        <type>synchro monster</type>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>(Summon) 1 Tuner + 1+ monsters.
+¹ If this card is Synchro Summoned [R]: You can destroy all cards on the field.
+² (1/Turn) [Banish 1 Plant monster from your GY, then target 1 Defense Position monster your opponent controls]: change its battle Position, if you do, its ATK becomes 0 until end of turn.</text>
+    </card>
+    <card>
+      <name>Book of Moon</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>spell</colors>
+        <maintype>Spell</maintype>
+        <type>spell card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>[Target 1 face-up monster on the field]: change it to face-down Defense Position.</text>
+    </card>
+    <card>
+      <name>Bottomless Trap Hole</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>trap</colors>
+        <maintype>Trap</maintype>
+        <type>trap card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When your opponent summons a monster(s) with 150 or more ATK: Destroy that monster(s) with 150 or more ATK, if you do, banish it.</text>
+    </card>
+    <card>
+      <name>Charge of the Light Brigade</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>spell</colors>
+        <maintype>Spell</maintype>
+        <type>spell card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>[W, Mill 3]: Add 1 Level 4 or lower &quot;Lightsworn&quot; monster from your Deck to your hand. (Send the top three cards of your Deck to your GY.)</text>
+    </card>
+    <card>
+      <name>Coral Dragon</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>6</cmc>
+        <colors>water</colors>
+        <maintype>Monster</maintype>
+        <pt>240/50</pt>
+        <race>Dragon</race>
+        <type>synchro monster</type>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>(Summon) 1 Tuner + 1+ monsters
+¹ (1/Turn) [Discard a card, then target 1 card your opponent controls]: Destroy it 
+² (1/Name) If this Synchro Summoned card is sent from the field to the GY: You can draw 1 card.</text>
+    </card>
+    <card>
+      <name>Lightsworn Dragonling</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>4</cmc>
+        <colors>light</colors>
+        <maintype>Monster</maintype>
+        <pt>150/130</pt>
+        <race>Dragon</race>
+        <type>effect monster</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>¹ (1/Name) If you have a &quot;Lightsworn&quot; monster in your GY [W]: You can Summon this card from your hand. 
+² (1/Name) If this card is summoned: You can send 1 &quot;Lightsworn&quot; card from your Deck to the GY, except &quot;Lightsworn Dragonling&quot;. 
+³ (1/Name) If this card is sent to the GY: You can add 1 Dragon monster with 300 ATK/260 DEF from your Deck to your hand.</text>
+    </card>
+    <card>
+      <name>Wulf, Lightsworn Beast</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>4</cmc>
+        <colors>light</colors>
+        <maintype>Monster</maintype>
+        <pt>210/30</pt>
+        <race>Beast-Warrior</race>
+        <type>effect monster</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Can&apos;t be summoned without card effects. 
+¹ If this card is sent from your Deck to the GY: You must summon it.</text>
+    </card>
+    <card>
+      <name>Felis, Lightsworn Archer</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>4</cmc>
+        <colors>light</colors>
+        <maintype>Monster</maintype>
+        <pt>110/200</pt>
+        <race>Beast-Warrior</race>
+        <type>effect monster</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Can&apos;t be summoned without card effects.
+¹ If this card is sent from your Deck to the GY by a monster effect: You must summon it. 
+² [Tribute this card, then target 1 monster your opponent controls]: Destroy it, then mill three cards.</text>
+    </card>
+    <card>
+      <name>Weiss, Lightsworn Archfiend</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>4</cmc>
+        <colors>light</colors>
+        <maintype>Monster</maintype>
+        <pt>0/170</pt>
+        <race>Fiend</race>
+        <type>effect monster</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>¹ (1/Name) [Place 1 other &quot;Lightsworn&quot; card from your hand on top of the Deck]: Summon this card from your hand, then mill two cards. 
+² (1/Name) If this card is sent from the Deck to the GY: [W, Target 1 &quot;Lightsworn&quot; monster in your GY, except &quot;Weiss, Lightsworn Archfiend&quot;]: Summon it.</text>
+    </card>
+    <card>
+      <name>Solar Recharge</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>spell</colors>
+        <maintype>Spell</maintype>
+        <type>spell card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>[Discard 1 &quot;Lightsworn&quot; monster]: Draw 2 cards, then mill two cards. (Send the top two cards of your Deck to your GY.)</text>
+    </card>
+    <card>
+      <name>Lightsworn Aegis</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>trap</colors>
+        <maintype>Trap</maintype>
+        <type>trap card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>¹ (1/Turn) [W, Target face-up cards your opponent controls, up to the number of &quot;Lightsworn&quot; monsters you control]: negate their effects until end of turn. 
+² (1/Turn) If this card is sent from the Deck to the GY: You can Set this card.</text>
+    </card>
+    <card>
+      <name>Minerva, the Exalted Lightsworn</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>4</cmc>
+        <colors>light</colors>
+        <maintype>Monster</maintype>
+        <pt>200/80</pt>
+        <race>Fairy</race>
+        <type>xyz monster</type>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>(Summon) 2 Level 4 monsters
+¹ (1/Name) [Detach 1 material]: Mill three cards, then draw cards equal to the number of &quot;Lightsworn&quot; cards sent to the GY by this effect. 
+² (1/Name) If this card is destroyed by battle, or an opponent&apos;s card effect: You can mill three cards, then you can destroy cards on the field up to the number of &quot;Lightsworn&quot; cards sent to the GY by this effect. </text>
+    </card>
+    <card>
+      <name>Minerva, the Athenian Lightsworn</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>8</cmc>
+        <colors>light</colors>
+        <maintype>Monster</maintype>
+        <pt>280/180</pt>
+        <race>Fairy</race>
+        <type>synchro monster</type>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>(Summon) 1 Tuner + 1+ monsters
+&quot;Lightsworn&quot; monsters you control can&apos;t be banished by card effects.
+¹ (1/Name) If this card is Synchro Summoned [W]: You can send &quot;Lightsworn&quot; monsters with different Types from your Deck to the GY, up to the number of &quot;Lightsworn&quot; monsters used as this card&apos;s material. 
+² (1/Name) [Banish up to 4 &quot;Lightsworn&quot; monsters from your GY]: Mill that many cards.</text>
+    </card>
+    <card>
+      <name>Punishment Dragon</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>8</cmc>
+        <colors>dark</colors>
+        <maintype>Monster</maintype>
+        <pt>300/260</pt>
+        <race>Dragon</race>
+        <type>effect monster</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Can&apos;t be summoned without card effects. 
+Must be summoned (from your hand) by possessing 4 or more banished &quot;Lightsworn&quot; monsters with different names. 
+¹ (Quick Effect, 1/Turn) [Pay 100 LP]: Shuffle into the Decks, all cards in the GYs and all face-up banished cards, except &quot;Lightsworn&quot; monsters. 
+² (1/Turn) If your &quot;Lightsworn&quot; monster&apos;s effect is activated: You must mill four cards.</text>
+    </card>
+    <card>
+      <name>Michael, the Arch-Lightsworn</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>8</cmc>
+        <colors>light</colors>
+        <maintype>Monster</maintype>
+        <pt>260/200</pt>
+        <race>Warrior</race>
+        <type>synchro monster</type>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>(Summon) 1 Tuner + 1+ LIGHT monsters
+
+¹ (Quick Effect, 1/Name): [W, Pay 150 LP, then target 1 card on the field]: banish it. 
+² If this card is destroyed [Target any number of other &quot;Lightsworn&quot; monsters in your GY]: Shuffle them into the Deck, if you do, you gain 30 LP for each returned card. 
+³ During each of your End Phases: You must mill three cards.</text>
+    </card>
+    <card>
+      <name>Minerva, Lightsworn Maiden</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>4</cmc>
+        <colors>light</colors>
+        <maintype>Monster</maintype>
+        <pt>80/20</pt>
+        <race>Fairy</race>
+        <type>effect monster</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>¹ If this card is summoned [W]: You can add 1 LIGHT Dragon-Type monster from your Deck to your hand, whose Level is less than or equal to the total number of &quot;Lightsworn&quot; monsters with different names in your GY. 
+² If this card is sent from the hand or Deck to the GY: Mill a card.
+³ During each of your End Phases: You must mill two cards.</text>
+    </card>
+    <card>
+      <name>Sky Striker Ace - Raye</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>4</cmc>
+        <colors>dark</colors>
+        <maintype>Monster</maintype>
+        <pt>150/150</pt>
+        <race>Warrior</race>
+        <type>effect monster</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>¹ (Quick Effect, 1/Name) [Tribute this card]: Summon 1 &quot;Sky Striker Ace&quot; monster from your Extra Deck using this card as material. 
+² (1/Name) While this card is in your GY, if a face-up &quot;Sky Striker Ace&quot; Xyz Monster you control is destroyed by battle, or leaves the field because of an opponent&apos;s card effect [B]: You can summon this card.</text>
+    </card>
+    <card>
+      <name>Sky Striker Mobilize - Engage!</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>spell</colors>
+        <maintype>Spell</maintype>
+        <type>spell card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>If you control no monsters, or the only monster you control is an Xyz monster [G]: Add 1 &quot;Sky Striker&quot; card from your Deck to your hand, except &quot;Sky Striker Mobilize - Engage!&quot;, then, if you have 3 or more Spells in your GY, you can draw 1 card.
+
+</text>
+    </card>
+    <card>
+      <name>Sky Striker Mecha - Widow Anchor</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>spell</colors>
+        <maintype>Spell</maintype>
+        <type>spell card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>If you control no monsters, or the only monster you control is an Xyz monster [C, Target 1 face-up Effect Monster on the field]: Negate its effects until end of turn, then, if you have 3 or more Spells in your GY, you can take control of that monster until the End Phase.</text>
+    </card>
+    <card>
+      <name>Sky Striker Maneuver - Afterburners!</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>spell</colors>
+        <maintype>Spell</maintype>
+        <type>spell card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>If you control no monsters, or the only monster you control is an Xyz monster [Target 1 face-up monster on the field]: destroy it, then, if you have 3 or more Spells in your GY, you can destroy 1 Spell/Trap on the field.
+
+</text>
+    </card>
+    <card>
+      <name>Sky Striker Mecha - Shark Cannon</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>spell</colors>
+        <maintype>Spell</maintype>
+        <type>spell card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>If you control no monsters, or the only monster you control is an Xyz monster [Target 1 monster in your opponent&apos;s GY]: Banish it,  or, if you have 3 or more Spells in your GY, you can summon that monster to your field instead, but it cannot attack.</text>
+    </card>
+    <card>
+      <name>Sky Striker Mobilize - Linkage!</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>spell</colors>
+        <maintype>Spell</maintype>
+        <type>spell card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>If you control no monsters, or the only monster you control is an Xyz monster: You cannot summon monsters from the Extra Deck until end of turn after this card resolves, except &quot;Sky Striker Ace&quot; monsters, also send 1 other card you control to the GY, if you do, summon 1 &quot;Sky Striker Ace&quot; monster from your Extra Deck using this card as material, and if you have 1+ LIGHT and 1+ DARK &quot;Sky Striker Ace&quot; monsters on your field and/or in your GY, the summoned monster gains 100 ATK.</text>
+    </card>
+    <card>
+      <name>Sky Striker Ace - Roze</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>4</cmc>
+        <colors>light</colors>
+        <maintype>Monster</maintype>
+        <pt>150/150</pt>
+        <race>Warrior</race>
+        <type>effect monster</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>(1/Name) If an opponent&apos;s monster is destroyed by battle, or leaves the field because of your card effect, while this card is in your GY [W]: You can summon this card, then you can negate the effects of 1 face-up monster your opponent controls, until end of turn.</text>
+    </card>
+    <card>
+      <name>Sky Striker Ace - Shizuku</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>4</cmc>
+        <colors>water</colors>
+        <maintype>Monster</maintype>
+        <pt>150/150</pt>
+        <race>Machine</race>
+        <type>xyz monster</type>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>(Summon) 1 non-WATER &quot;Sky Striker Ace&quot; monster
+Monsters your opponent controls lose 100 ATK/DEF for each Spell in your GY.
+¹ (1/Turn) During the End Phase [Detach 1 material]: You can add 1 &quot;Sky Striker&quot; Spell from your Deck to your hand, with a name different from the cards in your GY.
+Summon only 1 &quot;Sky Striker Ace - Shizuku&quot; per turn.</text>
+    </card>
+    <card>
+      <name>Sky Striker Ace - Kagari</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>4</cmc>
+        <colors>fire</colors>
+        <maintype>Monster</maintype>
+        <pt>150/150</pt>
+        <race>Machine</race>
+        <type>xyz monster</type>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>(Summon) 1 non-FIRE &quot;Sky Striker Ace&quot; monster
+Gains 100 ATK for each Spell in your GY.
+¹ If this card is summoned [Detach 1 material, Target 1 &quot;Sky Striker&quot; Spell in your GY]: Add it to your hand.
+Summon only 1 &quot;Sky Striker Ace - Kagari&quot; per turn.</text>
+    </card>
+    <card>
+      <name>Sky Striker Ace - Hayate</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>4</cmc>
+        <colors>wind</colors>
+        <maintype>Monster</maintype>
+        <pt>150/150</pt>
+        <race>Machine</race>
+        <type>xyz monster</type>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>(Summon) 1 non-WIND &quot;Sky Striker Ace&quot; monster
+This card can attack directly while it has material.
+¹ After damage calculation, if this card battled: You can send 1 &quot;Sky Striker&quot; card from your Deck to the GY.
+Summon only 1 &quot;Sky Striker Ace - Hayate&quot; per turn.</text>
+    </card>
+    <card>
+      <name>Reinforcement of the Army</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>spell</colors>
+        <maintype>Spell</maintype>
+        <type>spell card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>(1/Name) Add 1 Level 4 or lower Warrior monster from your Deck to your hand.</text>
+    </card>
+    <card>
+      <name>Raiden, Hand of the Lightsworn</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>4</cmc>
+        <colors>light</colors>
+        <maintype>Monster</maintype>
+        <pt>170/100</pt>
+        <race>Warrior</race>
+        <type>effect monster</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>¹ (Quick Effect, 1/Name): If your opponent activates a monster effect on the field: You can summon this card from your hand, if you do, mill three cards. (Send the top three cards of your Deck to your GY.)
+² During each of your End Phases: You must mill three cards.</text>
+    </card>
+    <card>
+      <name>Ryko, Lightsworn Hunter</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>2</cmc>
+        <colors>light</colors>
+        <maintype>Monster</maintype>
+        <pt>20/10</pt>
+        <race>Beast</race>
+        <type>effect monster</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>¹ [W] During the next Standby Phase after this card was sent from your Deck to the GY: Summon this card.
+² [Tribute this card]: You can destroy 1 card on the field, also mill three cards. (Send the top three cards of your Deck to your GY.)</text>
+    </card>
+    <card>
+      <name>Plaguespreader Zombie</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>2</cmc>
+        <colors>dark</colors>
+        <maintype>Monster</maintype>
+        <pt>40/20</pt>
+        <race>Zombie</race>
+        <type>effect monster</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>f this card is in your GY [Place 1 card from your hand on the top of the Deck]: Summon this card, but banish it when it leaves the field.
+
+</text>
+    </card>
+    <card>
+      <name>Foolish burial</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>spell</colors>
+        <maintype>Spell</maintype>
+        <type>spell card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>(1/Name) Send 1 monster from your Deck to the GY.</text>
+    </card>
+    <card>
+      <name>Lumina, Twilightsworn Shaman</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>3</cmc>
+        <colors>dark</colors>
+        <maintype>Monster</maintype>
+        <pt>100/100</pt>
+        <race>Spellcaster</race>
+        <type>effect monster</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>¹ (1/Turn) [B, Banish 1 &quot;Lightsworn&quot; monster from your hand or GY, then target 1 of your banished &quot;Lightsworn&quot; monsters, except &quot;Lumina, Twilightsworn Shaman&quot;]: Summon it.
+² (1/Turn) If your other &quot;Lightsworn&quot; monster&apos;s effect is activated: You must mill three cards.</text>
+    </card>
+    <card>
+      <name>Starliege Seyfert</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>4</cmc>
+        <colors>light</colors>
+        <maintype>Monster</maintype>
+        <pt>180/0</pt>
+        <race>Dragon</race>
+        <type>effect monster</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>¹ (1/Name) [Send any number of Dragon monsters from your hand and/or face-up field to the GY]: Add 1 Dragon monster from your Deck to your hand, whose Level equals the total original Levels of those monsters sent to the GY. 
+² (1/Name) [Banish this card from your GY, then target 1 Level 8 LIGHT or DARK Dragon monster in your GY]: Add it to your hand.</text>
+    </card>
+    <card>
+      <name>Jain, Twilightsworn General</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>4</cmc>
+        <colors>dark</colors>
+        <maintype>Monster</maintype>
+        <pt>180/120</pt>
+        <race>Warrior</race>
+        <type>effect monster</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>You may spend W as if it were B.
+¹ (Quick Effect, 1/Name) If this card is in your GY [Banish 1 &quot;Lightsworn&quot; monster, then target 1 face-up monster on the field]: it loses ATK and DEF equal to the banished monster&apos;s Level x 300, until end of turn.
+² (1/Turn) If your other &quot;Lightsworn&quot; monster&apos;s effect is activated: You must mill two cards.</text>
+    </card>
+    <card>
+      <name>Galaxy Cyclone</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>spell</colors>
+        <maintype>Spell</maintype>
+        <type>spell card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>¹ [Target 1 Set Spell/Trap on the field]: Destroy it. 
+² (1/Name) During your Main Phase, except the turn this card was sent to the GY [Banish this card from your GY, then target 1 face-up Spell/Trap on the field]: Destroy it. </text>
+    </card>
+    <card>
+      <name>Compulsory Evacuation Device</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>trap</colors>
+        <maintype>Trap</maintype>
+        <type>trap card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>[Target 1 monster on the field]: return it to the hand. It can&apos;t be summoned without card effects this turn.</text>
+    </card>
+    <card>
+      <name>Golden Cloud Beast - Malong</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>6</cmc>
+        <colors>light</colors>
+        <maintype>Monster</maintype>
+        <pt>220/100</pt>
+        <race>Dragon</race>
+        <type>synchro monster</type>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>(Summon) 1 Tuner + 1+ monsters
+
+¹ If this card is Summoned: You can increase or decrease its Level by 1. 
+² (1/Name) If this card is sent to the GY: [Target 1 face-up card your opponent controls]: Return it to the hand.</text>
+    </card>
+    <card>
+      <name>Bystial Dis Pater</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>10</cmc>
+        <colors>dark</colors>
+        <maintype>Monster</maintype>
+        <pt>350/350</pt>
+        <race>Dragon</race>
+        <type>synchro monster</type>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>(Summon) 1 Tuner + 1+ Dragon monsters
+¹ (1/Name) [Target 1 banished LIGHT or DARK monster]: Summon it to your field.
+² (Quick Effect, 1/Name) When your opponent activates a monster effect [B, Target 1 banished card]: shuffle it into the Deck, then if you shuffled it into your Deck, destroy that monster, or if you shuffled it into your opponent&apos;s Deck, negate that activated effect.</text>
+    </card>
+    <card>
+      <name>Condemned Witch</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>4</cmc>
+        <colors>dark</colors>
+        <maintype>Monster</maintype>
+        <pt>10/200</pt>
+        <race>Fairy</race>
+        <type>effect monster</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>¹ (1/Name) If this card is Summoned: You can add 1 &quot;Forbidden&quot; Quick-Play Spell from your Deck to your hand. 
+² (Quick Effect, 1/Name) During your opponent&apos;s Main Phase [B, Tribute this card]: Summon 1 Level 4 Fairy monster from your Deck, except &quot;Condemned Witch&quot;.</text>
+    </card>
+    <card>
+      <name>Forbidden Chalice</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>spell</colors>
+        <maintype>Spell</maintype>
+        <type>spell card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>[Target 1 face-up monster on the field]: Until end of turn, it gains 40 ATK, but its effects are negated.</text>
+    </card>
+    <card>
+      <name>Xyz Import</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>spell</colors>
+        <maintype>Spell</maintype>
+        <type>spell card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>(1/Name) [Target 1 Xyz monster you control and 1 monster your opponent controls] Attach that opponent&apos;s monster to your monster as material.</text>
+    </card>
+    <card>
+      <name>Xyz Reborn</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>spell</colors>
+        <maintype>Spell</maintype>
+        <type>spell card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>[Target 1 Xyz Monster in your Graveyard]: Summon it, and if you do, attach this card to it as an Xyz Material.</text>
+    </card>
+    <card>
+      <name>Sky Striker Mecha Modules - Multirole</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>spell</colors>
+        <maintype>Spell</maintype>
+        <type>spell card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>(1/Turn) During the End Phase: You can Set &quot;Sky Striker&quot; Spells with different names from your GY, up to the number of &quot;Sky Striker&quot; Spell Cards you activated this turn while this card was face-up on your field, but banish them when they leave the field.</text>
+    </card>
+    <card>
+      <name>Sky Striker Ace - Hornet Drones</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>spell</colors>
+        <maintype>Spell</maintype>
+        <type>spell card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>If you control no monsters, or the only monster you control is an Xyz monster: Summon this card as a Normal Monster (Warrior/DARK/Level 1/ATK 0/DEF 0), and if you have 3 or more Spells in your GY when this effect resolves, the ATK/DEF become 150 instead.</text>
+    </card>
+    <card>
+      <name>Pillar of the Future - Cyanos</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>1</cmc>
+        <colors>light</colors>
+        <maintype>Monster</maintype>
+        <pt>50/150</pt>
+        <race>Fairy</race>
+        <type>effect monster</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>(This card is always treated as a &quot;Sky Striker&quot; card.)
+¹ (1/Name) If this card is summoned [Tribute this card]: You can summon 1 &quot;Sky Striker Ace - Roze&quot; from your Deck or GY, also you cannot Summon from the Extra Deck for the rest of this turn, except Machine monsters.
+² (1/Name) [Banish this card from your GY]: Add 1 &quot;Sky Striker Ace - Roze&quot; from your GY or banishment to your hand.</text>
+    </card>
+    <card>
+      <name>Condemned Maiden</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>4</cmc>
+        <colors>light</colors>
+        <maintype>Monster</maintype>
+        <pt>10/200</pt>
+        <race>Fairy</race>
+        <type>effect monster</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>¹ (Quick Effect 1/Name) If you opponent summons a monster(s): Summon this card from your hand.
+² (1/Turn) During your opponent&apos;s turn, you can activate 1 Quick-Play Spell Card from your hand.</text>
+    </card>
+    <card>
+      <name>Number 101 Silent Honor ARK</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>4</cmc>
+        <colors>water</colors>
+        <maintype>Monster</maintype>
+        <pt>210/100</pt>
+        <race>Machine</race>
+        <type>xyz monster</type>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>(Summon) 2 Level 4 monsters
+¹ (1/Name) [Detach 2 materials, then target 1 monster your opponent controls in face-up Attack Position] Attach it to this card as material.
+² If this face-up card on the field would be destroyed  or banished, you can detach 1 material instead.</text>
+    </card>
+    <card>
+      <name>Sky Striker Mecha - Eagle Booster</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>spell</colors>
+        <maintype>Spell</maintype>
+        <type>spell card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>(1/Name) If you control no monsters, or the only monster you control is an Xyz monster: Refresh 1 of your mana cards, you can only spend it on card effects of Spell Cards this turn, then if you have 3 or more Spells in your GY, draw a card.</text>
+    </card>
+    <card>
+      <name>Sky Striker Ace - Azalea</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>4</cmc>
+        <colors>dark</colors>
+        <maintype>Monster</maintype>
+        <pt>150/150</pt>
+        <race>Machine</race>
+        <type>effect monster</type>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>(Quick Effect, 1/Name) During the Main Phase: [B, send this card from your hand or face-up field to the GY, then target 1 card on the field] Destroy it.
+This effect costs B less if you have 3 or less Spells in your GY.</text>
+    </card>
+    <card>
+      <name>Forbidden Lance</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>spell</colors>
+        <maintype>Spell</maintype>
+        <type>spell card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>[Target 1 face-up monster on the field]: Until the end of this phase, it loses 80 ATK, but it unaffected by the effects of other activated effects.</text>
+    </card>
+    <card>
+      <name>Dark Hole</name>
+      <set rarity="common"></set>
+      <prop>
+        <cmc>0</cmc>
+        <colors>spell</colors>
+        <maintype>Spell</maintype>
+        <type>spell card</type>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Destroy all monsters on the field. This effect costs (B) more if you control no monsters.</text>
+    </card>
+
+  </cards>
+</cockatrice_carddatabase>
