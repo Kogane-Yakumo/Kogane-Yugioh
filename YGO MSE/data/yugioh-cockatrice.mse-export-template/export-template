@@ -1,0 +1,129 @@
+﻿mse version: 2.0.0
+short name: Cockatrice
+full name: Cockatrice
+position hint: 100
+icon: icon.png
+version: 1
+installer group: Yugioh/Export/cockatrice
+
+depends on:
+	package: yugioh.mse-game
+	version: 2009-07-23
+
+game: yugioh
+create directory: true
+file type: *.xml|*.xml|*.*|*.*
+
+option field:
+	type: text
+	name: cockatrice Set Type
+	description: The "set type" your set will appear as in Cockatrice. "Custom" should be the default.
+	default: Custom
+option field:
+	type: choice
+	name: export Images
+	description: Export images along with the XML? Recommended for Cockatrice use. JPG is lower quality but lower file size.
+	choice: no
+	choice: JPG
+	choice: PNG
+	initial: no
+option field:
+	type: boolean
+	name: append Set Code To Tokens
+	description: Adds the set code to token names to differentiate them from tokens with the same name from other sets.
+	initial: no
+option style:
+	export Images:
+		render style: both
+		choice images:
+			no: {built_in_image("bool_no")}
+			JPG: {built_in_image("bool_yes")}
+			PNG: {built_in_image("bool_yes")}
+
+script:
+	file_type := {if options.export_Images == "PNG" then "png" else "jpg"}
+	#Strip bad punctuation from card names
+	strip_card_name :=
+		replace@(match: "’",replace:"'") + #replace bad apostrophe with good apostrophe
+		replace@(match:":", replace:"")+ #remove colons
+		replace@(match:";", replace:"")+ #remove semicolons
+		replace@(match:"\n", replace:"")+ #remove linebreaks
+		replace@(match:"\\.", replace:"")+ #remove periods
+		remove_tags
+
+	# escape special xml characters
+	xml_escape := replace@(match:"&",replace:"&amp;") #escape ampersands
+		+ replace@(match:"\"",replace:"\\&quot;") #escape double quote
+		+ replace@(match:"\'",replace:"\\&apos;") #escape single quote
+		+ replace@(match:"\<",replace:"\\&lt;") #escape less than sign
+		#+ replace@(match:"\>",replace:"\\&gt;") #escape greater than sign, for some reason this upsets mse and they are technically not needed to escape
+
+	#functions for the !exportname command
+	exporter_name_filter := filter_text@(match:"!exporte?r?name [^\n\<]+")
+	exporter_name_grabber := replace@(match:"!exporte?r?name ", replace:"")
+
+	#determining what name should be used for the card
+	card_name := { if exporter_name_grabber(exporter_name_filter(card.notes)) != "" then exporter_name_grabber(exporter_name_filter(card.notes)) else remove_tags(card.name) }
+
+	write_card := {
+		"\n    "+"\<card>"
+		# Name
+		+"\n      "+"\<name>"+xml_escape(strip_card_name(card_name()))+"\</name>"
+		# Set
+		+"\n      "+"\<set rarity="
+			+(if contains(card.rarity,match:"common") then "\"common\""
+			else if contains(card.rarity,match:"rare") then "\"rare\""
+			else "\"\"")
+			+">\</set>"
+		+"\n      "+"\<prop>"
+		# Attribute and Level
+		+"\n        "+"\<cmc>"
+		+(if is_nmonster() then 0 else xml_escape(card.level))
+			+"\</cmc>"
+		+"\n        "+"\<colors>"
+		+xml_escape(card.attribute)
+			+"\</colors>"
+		# Type
+		+"\n        "+"\<maintype>"
+			+(if is_monster() then "Monster"
+			 else if contains(card.card_type, match:"spell") then "Spell"
+			 else "Trap")
+			+"\</maintype>"
+		+(if is_monster() then "\n        "+"\<pt>"+xml_escape(card.attack)+"/"+xml_escape(card.defense)+"\</pt>")
+		+(if is_monster() then "\n        "+"\<race>"+xml_escape(card.type_1)+"\</race>")
+		+"\n        "+"\<type>"+xml_escape(card.card_type)+"\</type>"
+		+"\n      "+"\</prop>"
+		# Tablerow
+		+"\n      "+"\<tablerow>"
+			+(if is_nmonster() then "2"
+			 else if is_extra() then "3"
+			 else if is_monster() then "1"
+			 else "0")
+			 +"\</tablerow>"
+		# Rules Text
+		+"\n      "+"\<text>"+xml_escape(card.rule_text)+(if contains(card.pendulum, match:"pendulum") then xml_escape(card.pendulum_text) else "")+"\</text>"
+		+"\n    "+"\</card>"
+	}
+
+	format_file_name := {
+		input
+		#+ (if is_token() and options.append_code_To_Tokens then " " + set.code else "")
+		+ "." + file_type()
+	}
+	write_image :=
+	{
+		write_image_file(
+			card,
+			directory: set.code,
+			file: format_file_name(strip_card_name(card_name())),
+			width: 421
+			height: 614
+		)
+	}
+
+	write_images := if options.export_Images != "no" then for each card in cards do write_image() else ""
+
+	write_cards := to_text(for each card in cards do write_card())
+
+	#other cards
+	to_string("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<cockatrice_carddatabase version=\"4\">\n  <sets>\n    <set>\n      <name>"+"KGC"+"</name>\n      <longname>"+xml_escape(set.title)+"</longname>\n      <settype>"+xml_escape(options.cockatrice_Set_Type)+"</settype>\n    </set>\n  </sets>\n  <cards>\n"+write_cards+"\n\n  </cards>\n</cockatrice_carddatabase>")

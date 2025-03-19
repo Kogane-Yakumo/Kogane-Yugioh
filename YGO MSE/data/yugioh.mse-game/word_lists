@@ -1,0 +1,60 @@
+﻿
+############################################################## Word lists
+
+word list:
+	name: monster
+	word: Aqua
+	word: Beast
+	word: Beast-Warrior
+	word: Creator God
+	word: Cyberse
+	word: Dinosaur
+	word: Divine-Beast
+	word: Dragon
+	word: Fairy
+	word: Fiend
+	word: Fish
+	word: Illusion
+	word: Insect
+	word: Machine
+	word: Plant
+	word: Pyro
+	word: Psychic
+	word: Reptile
+	word: Rock
+	word: Sea Serpent
+	word: Spellcaster
+	word: Thunder
+	word: Warrior
+	word: Winged Beast
+	word: Wyrm
+	word: Zombie
+	word: Spell Card
+	word: Trap Card
+word list:
+	name: nonmonster
+	word: Spell Card
+	word: Spell Card    
+	word: Trap Card
+	word: Trap Card    
+word list:
+	name: card
+	word: Normal
+	word: Effect
+	word: Flip
+	word: Fusion
+	word: Gemini
+	word: Pendulum
+	word: Ritual
+	word: Spirit
+	word: Synchro
+	word: Toon
+	word: Tuner
+	word: Union
+	word: Xyz
+	word: Link
+	word: Skill
+	word: Equip+
+	word: Continuous%
+	word: Quick-Play$
+	word: Ritual#
